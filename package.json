@@ -3,10 +3,7 @@
   "version": "0.1.13",
   "description": "Useful tools for DatoCMS",
   "main": "dist/lib.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/inlight-media/datocms-tools.git"
-  },
+  "repository": "github:inlight-media/datocms-tools",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
