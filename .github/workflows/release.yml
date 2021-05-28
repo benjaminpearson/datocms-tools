@@ -1,4 +1,4 @@
-# From: https://github.com/semantic-release/semantic-release/blob/1405b94296059c0c6878fb8b626e2c5da9317632/docs/recipes/github-actions.md
+# See: https://github.com/semantic-release/semantic-release/blob/1405b94296059c0c6878fb8b626e2c5da9317632/docs/recipes/github-actions.md
 
 name: Release
 on:
