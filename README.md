@@ -53,10 +53,10 @@ export default async function() {
 #### Methods
 | Method | Arguments | Description
 | --- | --- | --- |
-| `importModels` | `{ apiKey, data }` | Imports given data to the project available with the `apiKey`. Data must contain `itemTypes` and `fields`.
+| `importModels` | `{ apiKey, models, cleanup }` | Imports given data to the project available with the `apiKey`. Data must contain `itemTypes` and `fields`. Setting `cleanup` (default `false`) allows you to choose to delete models from the destination project that are not in the supplied models.
 | `exportModels` | `{ apiKey }` | Exports `itemTypes` and `fields` from the project available with the given `apiKey`
 | `extractModels` | `{ apiKeys, models }` | Extracts `itemTypes` and `fields` from given models. Expects apiKeys to search for, can be `String` or `Array`.
-| `importMenu` | `{ apiKey, menuItems, models }` | Imports menu items to the project with given `apiKey`. Will also delete all menuItems that do not exist in the given data.
+| `importMenu` | `{ apiKey, menuItems, models, cleanup }` | Imports menu items to the project with given `apiKey`. Will also delete all menuItems that do not exist in the given data. Setting `cleanup` (default `false`) allows you to choose to delete menu items from the destination project that are not in the supplied menu items.
 | `exportMenu` | `{ apiKey }` | Will export menuItems from the project with given `apiKey`
 | `clearRelations` | `{ models }` | Removes related fields, e.g. from modular content fields
 | `removeModels` | `{ apiKeys, models }` | Removes one or more models including all their relations.

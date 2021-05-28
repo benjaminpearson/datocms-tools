@@ -1,11 +1,14 @@
 {
-  "name": "@mmintel/datocms-tools",
+  "name": "@inlight-media/datocms-tools",
   "version": "0.1.13",
   "description": "Useful tools for DatoCMS",
   "main": "dist/lib.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mmintel/datocms-tools.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "jest --setupFiles dotenv/config",
