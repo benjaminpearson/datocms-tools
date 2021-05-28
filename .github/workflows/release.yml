@@ -22,5 +22,6 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.INLIGHT_WRITE_PACKAGES_GITHUB_TOKEN }}
+          GITHUB_OAUTH_TOKEN: ${{ secrets.INLIGHT_WRITE_PACKAGES_GITHUB_TOKEN }}
         if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/next'
         run: npx semantic-release
