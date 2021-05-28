@@ -5,7 +5,7 @@
   "main": "dist/lib.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmintel/datocms-tools.git"
+    "url": "https://github.com/inlight-media/datocms-tools.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
